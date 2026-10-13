@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Liên hệ - TechZone</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="container nav-wrap">
+
+            <a class="logo" href="../index.html">
+                TECH<span>ZONE</span>
+            </a>
+
+
+            <button class="menu-btn" onclick="toggleMenu()">
+
+                ☰
+
+            </button>
+
+
+            <nav id="mainNav">
+
+                <a href="../index.html">
+                    Trang chủ
+                </a>
+
+                <a href="../trang con/gioithieu.html">
+                    Giới thiệu
+                </a>
+
+                <a href="../trang con/sanpham.html">
+                    Sản phẩm
+                </a>
+
+                <a href="../trang con/tintuc.html">
+                    Tin tức
+                </a>
+
+                <a class="active" href="../trang con/lienhe.html">
+
+                    Liên hệ
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="page-banner">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                TECHZONE SUPPORT
+            </p>
+
+            <h1>
+                Liên hệ
+            </h1>
+
+            <p>
+                Hãy gửi thông tin cho TechZone,
+                chúng tôi sẽ hỗ trợ bạn.
+            </p>
+
+        </div>
+
+    </section>
+    <main>
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <p class="eyebrow">
+                        THÔNG TIN
+                    </p>
+
+                    <h2>
+                        Kết nối với TechZone
+                    </h2>
+
+                    <p>
+                        Bạn cần tư vấn về sản phẩm công nghệ,
+                        giá bán hoặc cần hỗ trợ thêm thông tin?
+                        Hãy liên hệ với TechZone.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Địa chỉ
+                            </strong>
+
+                            <p>
+                                Cao Lãnh, Đồng Tháp
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Điện thoại
+                            </strong>
+
+                            <p>
+                                0901 234 567
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            ✉
+                        </div>
+                        <div>
+                            <strong>
+                                Email
+                            </strong>
+                            <p>
+                                hello@techzone.vn
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            ⏰
+                        </div>
+                        <div>
+                            <strong>
+                                Thời gian hỗ trợ
+                            </strong>
+                            <p>
+                                08:00 - 21:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form"></div>
+                    <p class="eyebrow">
+                        GỬI TIN NHẮN
+                    </p>
+                    <h2>
+                        Bạn cần hỗ trợ?
+                    </h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                Họ và tên
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="Nhập họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Nhập email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">
+                                Số điện thoại
+                            </label>
+                            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Chủ đề
+                            </label>
+                            <select id="subject" name="subject">
+                                <option value="">
+                                    -- Chọn chủ đề --
+                                </option>
+                                <option>
+                                    Tư vấn sản phẩm
+                                </option>
+                                <option>
+                                    Hỏi về giá
+                                </option>
+                                <option>
+                                    Hỗ trợ kỹ thuật
+                                </option>
+                                <option>
+                                    Khác
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">
+                                Nội dung
+                            </label>
+                            <textarea id="message" name="message" rows="5" placeholder="Nhập nội dung cần hỗ trợ..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            Gửi liên hệ
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section soft">
+            <div class="container">
+                <div class="promo">
+                    <div>
+                        <p class="eyebrow">
+                            TECHZONE CARE
+                        </p>
+                        <h2>
+                            Hỗ trợ tận tâm -
+                            Công nghệ dễ tiếp cận
+                        </h2>
+                        <p>
+                            TechZone luôn sẵn sàng
+                            giải đáp các câu hỏi của bạn.
+                        </p>
+                    </div>
+                    <a href="tel:0901 234 567" class="btn">
+                        Gọi ngay
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="logo">
+                    TECH<span>ZONE</span>
+                </div>
+                <p>
+                    Công nghệ thông minh
+                    cho cuộc sống hiện đại.
+                </p>
+            </div>
+            <div>
+                <h4>
+                    Liên kết
+                </h4>
+                <a href="../index.html">
+                    Trang chủ
+                </a>
+
+                <a href="../trang con/gioithieu.html">
+                    Giới thiệu
+                </a>
+
+                <a href="../trang con/sanpham.html">
+                    Sản phẩm
+                </a>
+
+                <a href="../trang con/tintuc.html">
+                    Tin tức
+                </a>
+            </div>
+            <div>
+                <h4>
+                    Liên hệ
+                </h4>
+                <p>
+                     Cao Lãnh, Đồng Tháp
+                </p>
+                <p>
+                    0901 234 567
+                </p>
+                <p>
+                    ✉ hello@techzone.vn
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+
+            © 2026 TechZone.
+            Website Được thực hiện bởi Sinh Viên Phan Đăng Hiếu.
+        </div>
+    </footer>
+    <button class="chat-button" onclick="toggleChat()">
+
+        💬
+
+    </button>
+    <div id="chatBox" class="chat-box">
+
+
+        <div class="chat-header">
+
+            <div>
+
+                <strong>
+                    TechZone Support
+                </strong>
+
+                <small>
+                    ● Đang trực tuyến
+                </small>
+
+            </div>
+
+            <button onclick="toggleChat()">
+                ×
+            </button>
+        </div>
+        <div id="chatMessages" class="chat-messages">
+            <div class="bot-message">
+                Xin chào <br>
+                Bạn cần TechZone hỗ trợ gì?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input id="chatInput" type="text" placeholder="Nhập tin nhắn..."
+                onkeydown="if(event.key==='Enter') sendMessage()">
+            <button onclick="sendMessage()">
+                ➤
+            </button>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
